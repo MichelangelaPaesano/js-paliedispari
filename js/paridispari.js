@@ -3,10 +3,10 @@ const numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'))
 console.log (numeroUtente)
 
 //con la funzione che ho trovato su MDN faccio generare un numero al pc 
-function getRandomInt(min, max) {
+function getRandomBetween(min, max) {
   const minCeiled = Math.ceil(min);
   const maxFloored = Math.floor(max);
-  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); 
+  return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); 
 }
 
 let numPc = getRandomInt(1, 6)
