@@ -1,4 +1,5 @@
 //creiamo prima il prompt per far mettere il numero al cliente 
+//const sceltaUtente = prompt('Scegli pari o dispari scrivendo "pari" o "dispari"') //mi sono completamente dimenticata di mettere questa parte nel codice 
 const numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'))
 console.log (numeroUtente)
 
