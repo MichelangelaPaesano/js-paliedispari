@@ -1,4 +1,4 @@
-const numeroUtente = prompt('Scegli un numero da 1 a 5')
+const numeroUtente = parseInt(prompt('Scegli un numero da 1 a 5'))
 console.log (numeroUtente)
 
 function getRandomInt(min, max) {
@@ -10,5 +10,5 @@ function getRandomInt(min, max) {
 let numPc = getRandomInt(1, 6)
 console.log (numPc)
 
-let somma = numeroUtente + getRandomInt;
-console.log (somma)
+let somma = numeroUtente + numPc;
+console.log (`${numeroUtente} + ${numPc} = ${somma}`)
